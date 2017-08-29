@@ -5,3 +5,9 @@ index.html
 	grid-column-gap
 	grid-row-gap
 	grid-gap
+
+index2.html
+	More about grid-template-columns
+	grid-auto-rows
+	Nested grids
+	Divs inside grid
