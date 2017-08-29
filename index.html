@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Grid</title>
+		<style>
+			body, html {
+				margin: 0px;
+				padding: 0px;
+				font-family: sans-serif;
+			}
+
+			.grid {
+				display: grid;
+
+				/*grid-template-columns: 40% 30% 30%;*/
+				grid-template-columns: 70% 30%;
+
+				grid-column-gap: 20px;
+				grid-row-gap: 20px;
+				grid-gap: 10px;
+			}
+			.grid > div {
+				background-color: #eee;
+				padding: 1em;
+			}
+			.grid > div:nth-child(odd) {
+				background-color: #ddd;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid">
+			<div>
+				The quick browm fox jumped over the lazy dog, consectetur adipisicing elit. Sequi, porro dicta autem iste, a corporis explicabo ratione debitis. Non quidem odio incidunt doloremque error repellendus itaque totam provident, id, sed, corporis commodi recusandae ratione eveniet rerum aut. Odio enim aspernatur dolorem at voluptatem blanditiis natus temporibus, cupiditate cum expedita alias aliquid voluptate rem obcaecati vitae quibusdam nihil fugiat vel! In, illum nemo dolores eos rerum modi sapiente eveniet quo perferendis ea labore blanditiis obcaecati sit nostrum. Deserunt aperiam numquam quam.
+			</div>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum molestiae maiores odit assumenda sit laborum beatae alias eveniet itaque autem optio blanditiis quo inventore magnam, hic, doloremque quos distinctio ipsa!
+			</div>
+			<div>
+				The quick browm fox jumped over the lazy dog, consectetur adipisicing elit. Sequi, porro dicta autem iste, a corporis explicabo ratione debitis. Non quidem odio incidunt doloremque error repellendus itaque totam provident, id, sed, corporis commodi recusandae ratione eveniet rerum aut. Odio enim aspernatur dolorem at voluptatem blanditiis natus temporibus, cupiditate cum expedita alias aliquid voluptate rem obcaecati vitae quibusdam nihil fugiat vel! In, illum nemo dolores eos rerum modi sapiente eveniet quo perferendis ea labore blanditiis obcaecati sit nostrum. Deserunt aperiam numquam quam.
+			</div>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum molestiae maiores odit assumenda sit laborum beatae alias eveniet itaque autem optio blanditiis quo inventore magnam, hic, doloremque quos distinctio ipsa!
+			</div>
+			<!-- <div>Hello</div> -->
+		</div>
+	</body>
+</html>
