@@ -11,3 +11,10 @@ index2.html
 	grid-auto-rows
 	Nested grids
 	Divs inside grid
+
+index3.html
+	justify-items
+	justify-self
+	align-items
+	grid-column: 1/3
+	grid-row: 1/3
