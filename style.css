@@ -1,0 +1,23 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.grid > div {
+    background-color: #eee;
+    padding: 1em;
+    padding: 15px;
+}
+.grid > div:nth-child(odd) {
+    background-color: #ddd;
+}
+
+
+.grid {
+    display: grid;
+
+    /*grid-template-columns: 40% 30% 30%;*/
+    grid-template-columns: 70% 30%;
+    grid-template-columns: 1fr 1fr;
+    /*grid-gap: 10px;*/
+}
